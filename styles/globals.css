@@ -1,3 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Passion+One&family=Russo+One&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root{
+    --anton: 'Anton', sans-serif;
+    --archivo: 'Archivo Black', sans-serif;
+    --passion: 'Passion One', cursive;
+    --russo: 'Russo One', sans-serif;
+    --alfa: 'Alfa Slab One', cursive;
+    --orange-gradient: -webkit-linear-gradient(left, #FF5F6D, #FFC371);
+    --purple-gradient: -webkit-linear-gradient(left, #ef32d9, #89fffd);
+    --blue-gradient: -webkit-linear-gradient(left, #007991, #78ffd6);
+    --summer-gradient: -webkit-linear-gradient(left, #fceabb, #f8b500);
+}
+
+*{
+    scrollbar-width: thin;          
+    scrollbar-color: #182848 #4b6cb7;
+}
+
+body{
+    color:rgb(179, 190, 228);
+    
+}
+
+body::-webkit-scrollbar {
+    width: 6px;               
+}
+
+body::-webkit-scrollbar-track {
+    background: #4b6cb7;      
+  }
+
+body::-webkit-scrollbar-thumb {
+       
+    border-radius: 20px;       
+    border: 10px solid #182848;  
+  }
+
+
+
+.title{
+    font-family: var(--archivo)
+}
+
+.poppins{
+    font-family: 'Poppins', sans-serif;
+   
+}
+
+.montserrat{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.gradient{
+   /* background: radial-gradient(45deg, #16222A 40%, #3A6073 100%)*/
+   background: radial-gradient(ellipse at top, #4b6cb7, #182848);
+   
+}
+
+.sub-title{
+     background: var(--summer-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+@keyframes title-animation-1 {
+    0% {
+        background: var(--orange-gradient);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    33% {
+        background: white;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    77% {
+        background: white;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    100% {
+        background: var(--orange-gradient);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+  }
+
+.text-gradient-1{
+    animation-name: title-animation-1;
+    animation-duration: 8s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes title-animation-2 {
+    0% {
+        background: white;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    33% {
+        background: var(--purple-gradient);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    77% {
+        background: white;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    100% {
+        background: white;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+  }
+
+.text-gradient-2{
+    animation-name: title-animation-2;
+    animation-duration: 8s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes title-animation-3 {
+    0% {
+        background: white;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    33% {
+        background: white;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    77% {
+        background: var(--blue-gradient);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+   
+    
+  }
+
+.text-gradient-3{
+    animation-name: title-animation-3;
+    animation-duration: 8s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    
+}
+
+
+.border-color{
+    border-color: #4b6cb7;
+}
+
+.gradient-1{
+    background: linear-gradient(to left,#ff9966, #ff5e62);
+}
+
+.gradient-2{
+    background: var(--purple-gradient);
+}
+
+.gradient-3{
+    background: var(--blue-gradient);
+}
+
+
+.line-pointer{
+    width: 1px;
+    background: linear-gradient(to top, #ff9966, transparent) ;
+   
+}
+
+
+.line-pointer2{
+    width: 1px;
+    background: linear-gradient(to top, #89fffd, transparent) ;
+   
+}
+.line-pointer3{
+    width: 1px;
+    background: linear-gradient(to top, #78ffd6, transparent) ;
+   
+}
+
+.line-color{
+    border-image: linear-gradient(to top, #4b6cb7, transparent) 1;
+}
+
+
+
+.bg-main{
+    background: #4b6cb7;
+}
+
+.bg-secondary{
+    background: #182848;
+}
+
+.bg-trans{
+    background:rgba(0,0,0,.1);
+}
+
+/* Join Us */
+
+
+
+.selection:hover{
+    background:rgba(0,0,0,.2);
+    transition: background-color .3s ease;
+}
+
+.selection__line{
+    border-left-style:solid;
+    border-left-width: 4px;
+    border-color: rgba(2, 133, 199, 0.4);
+}
+
+
+
+.selection__indicator-first::after{
+    content:'';
+    position: absolute;
+    
+    top:0px;
+    left:-4px;
+    display: block;
+    background-color: rgb(14 165 233);
+    width: 4px;
+    height: 28px;
+    transition: top .3s;
+}
+
+.selection__indicator-second::after{
+    content:'';
+    position: absolute;
+    
+    top:28px;
+    left:-4px;
+    display: block;
+    background-color: rgb(14 165 233);
+    width: 4px;
+    height: 28px;
+    transition: top .3s;
+}
+
+.selection__indicator-third::after{
+    content:'';
+    position: absolute;
+    
+    top:56px;
+    left:-4px;
+    display: block;
+    background-color: rgb(14 165 233);
+    width: 4px;
+    height: 28px;
+    transition: top .3s;
+}
+
+.show{
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    text-align: left;
+  
+    opacity: 100;
+  
+    transition: all 1s ease-in;
+}
+
+.hide{
+    opacity: 0;
+    visibility: hidden;
+   
+}
+
