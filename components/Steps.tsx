@@ -45,14 +45,14 @@ function Steps() {
 
   return (
     <div className='flex flex-col items-center justify-center mt-20 p-5 max-w-screen-lg mx-auto'>
-        <motion.div initial="hidden" whileInView="show" variants={variants} transition={{duration:1}} viewport={{ once: true, amount:.9}} className="flex flex-col items-center">
+        <motion.div initial="hidden" whileInView="show" variants={variants} transition={{duration:1}} viewport={{ once: true, amount:.3}} className="flex flex-col items-center">
         <h1 className='montserrat text-lg text-white uppercase'>How To Join The Family</h1>
 
         <div className='line-pointer h-40  mt-10'></div>
         <div className='rounded-full gradient-1 p-4'><RiNumber1 className='text-sky-800 text-xl'/></div>
         <div className='text-gradient montserrat text-2xl mt-10'>Read Our Rules</div>
         </motion.div>
-        <motion.div initial="hiddenLeft" whileInView="showLeft" variants={variants} transition={{duration:1}} viewport={{ once: true, amount:.5}} className='grid grid-cols-1 md:grid-cols-2 mt-10 gap-10'>
+        <motion.div initial="hiddenLeft" whileInView="showLeft" variants={variants} transition={{duration:1}} viewport={{ once: true, amount:.3}} className='grid grid-cols-1 md:grid-cols-2 mt-10 gap-10'>
             <p><span className='text-sky-400 font-bold'>Be respectful.</span> Don't be annoying, toxic, or cause unnecessary drama. Friendly jokes or banter are welcome, but make good judgement as to what lines you shouldn’t cross.</p>
             <p><span className='text-sky-400 font-bold'>Don’t steal, grief, or PvP without consent.</span> Using private farms without permission is considered stealing.</p>
             <p><span className='text-sky-400 font-bold'>Don’t cheat.</span> Hack clients, x-ray, automining, or unauthorized use of exploit or mods that give an unfair advantage are unacceptable and will result in a ban. </p>
