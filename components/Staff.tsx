@@ -6,10 +6,26 @@ import konoDiscordLogo from '../public/assets/kono-discord-logo.png'
 import { FiChevronDown } from 'react-icons/fi'
 import { GoCommentDiscussion } from 'react-icons/go'
 import { BsFillPeopleFill, BsQuestionCircleFill } from 'react-icons/bs'
+import {motion} from 'framer-motion'
 
 const Staff = () => {
+    const variants = {
+        hidden : {
+          opacity: 0,
+         
+         
+        },
+        show : {
+          opacity: 1,
+         
+         
+        },
+       
+    
+      }
+
   return (
-    <div className='mt-32 p-5 max-w-screen-lg mx-auto'>
+    <motion.div initial="hidden" whileInView="show" variants={variants} transition={{duration:3}} viewport={{ once: true, amount:.5}} className='mt-32 p-5 max-w-screen-lg mx-auto'>
         <div className='relative w-8/12 h-20 md:h-40 ml-auto mr-auto -mb-1'><Image src={mobs} objectFit="contain" layout='fill'/></div>
 
         <div className='bg-[#282b30] flex flex-col  rounded-tr-lg rounded-tl-lg pt-3 overflow-hidden '>
@@ -127,7 +143,7 @@ const Staff = () => {
                 </div>
             </div>
         </div>
-    </div>
+    </motion.div>
 
   )
 }

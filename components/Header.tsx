@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React, { useEffect, useState } from 'react'
 import { RiCloseFill, RiMenu5Fill } from 'react-icons/ri'
 import logo from '../public/assets/logo.png'
@@ -31,8 +32,13 @@ function Header() {
   }, [])
 
   useEffect(() => {
-    
+    setWindowWidth(window.innerWidth)
     const handleResize = () => {
+
+      if(window.innerWidth > 768){
+        setMenuOpen(false)
+      }
+      
       setWindowWidth(window.innerWidth)
    
     }
@@ -50,14 +56,16 @@ function Header() {
 
   return (
     <div className={scrollY > 50 && windowWidth < 768 ?  navbarStyle + navbarBgGradient : navbarStyle + navbarBgTransparent}>
-        <div className={ menuOpen ? 'hidden' : 'relative w-[15rem] h-[3rem] '}><Image src={logo} layout="fill" objectFit="contain"/></div>
+        <Link href="/"><div className={ menuOpen ? 'hidden' : 'relative w-[15rem] h-[3rem] cursor-pointer'}><Image src={logo} layout="fill" objectFit="contain"/></div></Link>
         <div className='hidden md:flex space-x-10 montserrat'>
-            <div>KonoHats</div>
             
-         
-            <div>KonoReview</div>
-            <div>Guide</div>
-            <div>Donate</div>
+            
+            
+            <div><a className='hover:text-white' href="https://konoreview.vercel.app" rel='noreferrer' target="_blank">KonoReview</a></div>
+            <div><a className='hover:text-white' href="https://konohaven.notion.site/konohaven/Konohaven-Info-Guide-ac0dad93abac4953950ff6b9c38d3871" rel='noreferrer' target="_blank">Guide</a></div>
+            <div className='hover:text-white'>Merch</div>
+            <div className='hover:text-white'>Donate</div>
+            
 
         </div>
         
@@ -69,15 +77,14 @@ function Header() {
           
           <div className={menuOpen ? menuStyle + menuOpenStyle : menuStyle + menuCloseStyle }>
 
-            <div className='flex'>
-              <div>Home</div>
-              <RiCloseFill className='text-2xl absolute right-5' onClick={()=>setMenuOpen(false)}/>
-            </div>
-            <div>About</div>
-            <div>Merch</div>
-            <div>KonoReview</div>
-            <div>Guide</div>
-            <div>Donate</div>
+           
+            <RiCloseFill className='text-2xl absolute right-5' onClick={()=>setMenuOpen(false)}/>
+            
+            
+            <div><a href="https://konoreview.vercel.app" className='hover:text-white' rel='noreferrer' target="_blank">KonoReview</a></div>
+            <div><a href="https://konohaven.notion.site/konohaven/Konohaven-Info-Guide-ac0dad93abac4953950ff6b9c38d3871" className='hover:text-white' rel='noreferrer' target="_blank">Guide</a></div>
+            <div className='hover:text-white'>Merch</div>
+            <div className='hover:text-white'>Donate</div>
 
           </div>
           
