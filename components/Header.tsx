@@ -63,7 +63,7 @@ function Header() {
             
             <div><a className='hover:text-white' href="https://konoreview.vercel.app" rel='noreferrer' target="_blank">KonoReview</a></div>
             <div><a className='hover:text-white' href="https://konohaven.notion.site/konohaven/Konohaven-Info-Guide-ac0dad93abac4953950ff6b9c38d3871" rel='noreferrer' target="_blank">Guide</a></div>
-            <div className='hover:text-white'>Merch</div>
+            <div className='hover:text-white'><a href="https://konohaven.creator-spring.com/" target="_blank" rel='noreferrer'>Merch</a></div>
             <div className='hover:text-white'>Donate</div>
             
 
@@ -83,7 +83,7 @@ function Header() {
             
             <div><a href="https://konoreview.vercel.app" className='hover:text-white' rel='noreferrer' target="_blank">KonoReview</a></div>
             <div><a href="https://konohaven.notion.site/konohaven/Konohaven-Info-Guide-ac0dad93abac4953950ff6b9c38d3871" className='hover:text-white' rel='noreferrer' target="_blank">Guide</a></div>
-            <div className='hover:text-white'>Merch</div>
+            <div className='hover:text-white'><a href="https://konohaven.creator-spring.com/" target="_blank" rel='noreferrer'>Merch</a></div>
             <div className='hover:text-white'>Donate</div>
 
           </div>
