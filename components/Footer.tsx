@@ -27,7 +27,7 @@ function Footer() {
         <Image src={logo} layout='fill' objectFit='contain' />
       </div>
      <div className='flex space-x-4 mt-8'>
-      <a className='block ' href="https://discord.io/Konohaven" target="_blank" rel='noreferrer'><FaDiscord className='text-3xl self-center'/></a>
+      <a className='block ' href="https://discord.gg/pKHhz7hKJR" target="_blank" rel='noreferrer'><FaDiscord className='text-3xl self-center'/></a>
       <div className='bg-[rgb(179,190,228)] h-[15px] w-[1px] self-center'></div>
       <a className='flex items-center ' href="https://konohaven.notion.site/konohaven/Konohaven-Info-Guide-ac0dad93abac4953950ff6b9c38d3871" target="_blank" rel='noreferrer'><FaBook className='text-xl self-center'/></a>
       <div className='bg-[rgb(179,190,228)] h-[15px] w-[1px] self-center'></div>
