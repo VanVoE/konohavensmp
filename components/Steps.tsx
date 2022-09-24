@@ -68,7 +68,7 @@ function Steps() {
         <div className='rounded-full gradient-2 p-4'><RiNumber2 className='text-sky-800 text-xl'/></div>
         <div className='text-gradient montserrat text-2xl mt-10'>Join Our Discord</div>
         <h1 className='text-white text-3xl md:text-5xl montserrat text-center'>Discord is Required</h1>
-        <button className='mt-10'><a href="https://discord.gg/pKHhz7hKJR" rel="noreferrer" target="_blank"> <FaDiscord className='text-8xl text-white animate-bounce'/></a></button>
+        <button className='mt-10'><a href="https://discord.gg/Fbxzcs9HrW" rel="noreferrer" target="_blank"> <FaDiscord className='text-8xl text-white animate-bounce'/></a></button>
         </motion.div>
         
         <motion.div initial="hiddenBottom" whileInView="showBottom" variants={variants} transition={{duration:1}} viewport={{ once: true, amount:.5}} className="flex flex-col items-center">
