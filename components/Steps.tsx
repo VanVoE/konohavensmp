@@ -53,14 +53,14 @@ function Steps() {
         <div className='text-gradient montserrat text-2xl mt-10'>Read Our Rules</div>
         </motion.div>
         <motion.div initial="hiddenLeft" whileInView="showLeft" variants={variants} transition={{duration:1}} viewport={{ once: true, amount:.3}} className='grid grid-cols-1 md:grid-cols-2 mt-10 gap-10'>
-            <p><span className='text-sky-400 font-bold'>Be respectful.</span> Don't be annoying, toxic, or cause unnecessary drama. Friendly jokes or banter are welcome, but make good judgement as to what lines you shouldn’t cross.</p>
-            <p><span className='text-sky-400 font-bold'>Don’t steal, grief, or PvP without consent.</span> Using private farms without permission is considered stealing.</p>
-            <p><span className='text-sky-400 font-bold'>Don’t cheat.</span> Hack clients, x-ray, automining, or unauthorized use of exploit or mods that give an unfair advantage are unacceptable and will result in a ban. </p>
-            <p><span className='text-sky-400 font-bold'>Be considerate.</span> When building a base that is close to another player's build or land. If unsure, ask to see if they are okay with it. It is recommended you check through Discord, Dynmap, or in-game to see if the land was claimed already.</p>
-            <p><span className='text-sky-400 font-bold'>If claiming a large amount of land, doing a large project, or anything that may lag the server please ask a staff member before doing so.</span> Please note that staff may kick AFK players at a farm and disable it if the server experiences significant lag. </p>
-            <p><span className='text-sky-400 font-bold'>Spawn area is managed by Spawn Committee with their own rules and restrictions.</span> If you plan to build or modify the spawn area, please ask for approval. </p>
-            <p><span className='text-sky-400 font-bold'>Avoid bringing up discussion regarding political or controversial topics. </span> This is a laid-back causual gaming environment and we want to keep it that way.</p>
-            <p><span className='text-sky-400 font-bold'>Konohaven is a mature community.</span> At discretion staff may remove you if deemed unfit for the community. This includes circumventing the rules for its purpose.</p>
+            <p><span className='text-sky-400 font-bold'>Be polite and respectful to others.</span> Friendly jokes are welcome, but make good judgements as to what lines you should not cross.</p>
+            <p><span className='text-sky-400 font-bold'>Do not grief, steal, or PvP without consent.</span> Taking or breaking other player’s stuff is not okay. Using private farms without permission is considered stealing. </p>
+            <p><span className='text-sky-400 font-bold'>Do not cheat.</span> Hack client, xray, or any other unauthorized use of exploit or mods that give an unfair advantage will result in a ban. </p>
+            <p><span className='text-sky-400 font-bold'>Give other players space when building nearby.</span> If you are not sure they are comfortable with having your base nearby, ask the owner to see if they are okay with it.</p>
+            <p><span className='text-sky-400 font-bold'>Be considerate and limit the use of farms or machines that may lag the server during busy times.</span> Staff may intervene to maintain suitable gameplay experience for others.</p>
+            <p><span className='text-sky-400 font-bold'>Avoid bringing up political or controversial topics. </span> This is not a place to express your opinion or views. We want to keep this a laid-back and casual gaming environment. </p>
+            <p><span className='text-sky-400 font-bold'>Do not cause drama or spam in chat. </span> Personal issues and unwanted topics are best dealt through private DMs. If you have an issue with another player, contact staff.</p>
+            <p><span className='text-sky-400 font-bold'>We are a mature community.</span> Use common sense and do things the right way as to not skirt the rules. Staff reserves the right to remove you if deemed unfit for the community.</p>
         </motion.div>
 
         <motion.div initial="hiddenRight" whileInView="showRight" variants={variants} transition={{duration:1}} viewport={{ once: true, amount:.5}} className="flex flex-col items-center">
@@ -81,8 +81,7 @@ function Steps() {
           <p>
             Failing this process eliminates you from joining our community indefinitely. 
             So please take your time with your application. If you have any questions, 
-            feel free to post in our <span className='text-sky-400 font-bold'>#questions</span> channel. Steps on how to create a whitelist application is in our 
-            <span className='text-sky-400 font-bold'> #how-to-whitelist</span> channel.
+            feel free to post in our <span className='text-sky-400 font-bold'>#questions</span> channel.
           
           </p>
             
