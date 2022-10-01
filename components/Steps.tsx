@@ -61,6 +61,7 @@ function Steps() {
             <p><span className='text-sky-400 font-bold'>Avoid bringing up political or controversial topics. </span> This is not a place to express your opinion or views. We want to keep this a laid-back and casual gaming environment. </p>
             <p><span className='text-sky-400 font-bold'>Do not cause drama or spam in chat. </span> Personal issues and unwanted topics are best dealt through private DMs. If you have an issue with another player, contact staff.</p>
             <p><span className='text-sky-400 font-bold'>We are a mature community.</span> Use common sense and do things the right way as to not skirt the rules. Staff reserves the right to remove you if deemed unfit for the community.</p>
+            <p><span className='text-sky-400 font-bold'>Note:</span> If you have read through all the rules and requirements above, be sure to mention on the last question of your application that you have read the rules.</p>
         </motion.div>
 
         <motion.div initial="hiddenRight" whileInView="showRight" variants={variants} transition={{duration:1}} viewport={{ once: true, amount:.5}} className="flex flex-col items-center">
