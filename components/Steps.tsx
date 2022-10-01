@@ -85,7 +85,10 @@ function Steps() {
             feel free to post in our <span className='text-sky-400 font-bold'>#questions</span> channel.
           
           </p>
-            
+          <p className='mt-5'>
+          <span className='text-sky-400 font-bold'>Note:</span> Must be 18+ to apply. However, we do make exceptions below 18. Please contact Titan if your below the age requirement for an interview.
+          
+          </p>
             
         </div>
         </motion.div>
