@@ -86,7 +86,7 @@ function Steps() {
           
           </p>
           <p className='mt-5'>
-          <span className='text-sky-400 font-bold'>Note:</span> Must be 18+ to apply. However, we do make exceptions below 18. Please contact Titan if your below the age requirement for an interview.
+          <span className='text-sky-400 font-bold'>Note:</span> Must be 18+ to apply. However, we do make exceptions below 18. Please contact Titan if you are below the age requirement for an interview.
           
           </p>
             
