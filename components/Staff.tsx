@@ -128,19 +128,18 @@ const Staff = () => {
                         
                             <h1 className='title text-xs mt-4'>Spawn Manager - 1</h1> */}
                             
-                            <h1 className='title text-xs mt-4'>Mods - 7</h1>
+                            <h1 className='title text-xs mt-4'>Mods - 8</h1>
                             
                             <div className='text-xs montserrat flex items-center mt-2 mb-2'><div><div className='bg-pink-300 rounded-full p-2 mr-2'><FaDiscord className='text-sm text-white'/></div></div>Ena</div>
-                            <div className='text-xs montserrat flex items-center mt-2 mb-2'><div><div className='bg-purple-400 rounded-full p-2 mr-2'><FaDiscord className='text-sm text-white'/></div></div>Iujt</div>
-                            <div className='text-xs montserrat flex items-center mt-2 mb-2'><div><div className='bg-green-700 rounded-full p-2 mr-2'><FaDiscord className='text-sm text-white'/></div></div>Oli</div>
+                            <div className='text-xs montserrat flex items-center mt-2 mb-2'><div><div className='bg-purple-700 rounded-full p-2 mr-2'><FaDiscord className='text-sm text-white'/></div></div>Iujt</div>
+                            <div className='text-xs montserrat flex items-center mt-2 mb-2'><div><div className='bg-green-700 rounded-full p-2 mr-2'><FaDiscord className='text-sm text-white'/></div></div>Imperial</div>
                             <div className='text-xs montserrat flex items-center mt-2 mb-2'><div><div className='bg-yellow-500 rounded-full p-2 mr-2'><FaDiscord className='text-sm text-white'/></div></div>Rice</div>
                             <div className='text-xs montserrat flex items-center mt-2 mb-2'><div><div className='bg-blue-500 rounded-full p-2 mr-2'><FaDiscord className='text-sm text-white'/></div></div>Water</div>
-                            {/* <div className='text-xs montserrat flex items-center mt-2 mb-2'><div><div className='bg-green-400 rounded-full p-2 mr-2'><FaDiscord className='text-sm text-white'/></div></div>Bry</div>
-                            <div className='text-xs montserrat flex items-center mt-2 mb-2'><div><div className='bg-blue-500 rounded-full p-2 mr-2'><FaDiscord className='text-sm text-white'/></div></div>Bugs</div>
+  
                             <div className='text-xs montserrat flex items-center mt-2 mb-2'><div><div className='bg-purple-400 rounded-full p-2 mr-2'><FaDiscord className='text-sm text-white'/></div></div>Cosmic</div>
-                            <div className='text-xs montserrat flex items-center mt-2 mb-2'><div><div className='bg-yellow-500 rounded-full p-2 mr-2'><FaDiscord className='text-sm text-white'/></div></div>Fenry (SunSun)</div>
+                            <div className='text-xs montserrat flex items-center mt-2 mb-2'><div><div className='bg-orange-500 rounded-full p-2 mr-2'><FaDiscord className='text-sm text-white'/></div></div>Fenry (i-sun-q)</div>
                             <div className='text-xs montserrat flex items-center mt-2 mb-2'><div><div className='bg-green-700 rounded-full p-2 mr-2'><FaDiscord className='text-sm text-white'/></div></div>Poison</div>
-                            <div className='text-xs montserrat flex items-center mt-2 mb-2'><div><div className='bg-yellow-400 rounded-full p-2 mr-2'><FaDiscord className='text-sm text-white'/></div></div>Riavis</div> */}
+                     
                             
                         </div>
                         

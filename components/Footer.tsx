@@ -33,7 +33,7 @@ function Footer() {
       <div className='bg-[rgb(179,190,228)] h-[15px] w-[1px] self-center'></div>
       <a className='flex items-center ' href="https://konoreview.vercel.app" target="_blank" rel='noreferrer' ><IoStorefrontSharp className='text-2xl self-center'/></a>
       </div>
-     <div className='mt-10 text-xs uppercase montserrat'>&copy; KonohavenSmp 2022</div>
+     <div className='mt-10 text-xs uppercase montserrat'>&copy; KonohavenSmp 2023</div>
     </motion.div>
   )
 }
